@@ -1,0 +1,49 @@
+.slider-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    overflow: hidden;
+    gap: 30px;
+    width: 100%;
+}
+
+.slide-count {
+    margin: 0 16px;
+    font-size: 16px;
+}
+
+.slider-controls{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+button {
+    padding: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+  
+.cont{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.prevBtn{
+    width: 28px;
+    height: 29px;
+    border-radius: 5px;
+    border: 1px #424961;
+
+}
+
+.NextBtn{
+    width: 28px;
+    height: 29px;
+    border-radius: 5px;
+    border: 1px #424961;
+    left: 0;
+}
