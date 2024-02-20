@@ -27,13 +27,13 @@ const SliderComponent = ({ data }) => {
       </div>
       <div className="slider-controls">
         <button onClick={prevSlide} disabled={currentIndex === 0} className='prevBtn'>
-          <FaAngleLeft/>
+          <FaAngleLeft className='icon'/>
         </button>
         <span className="slide-count">
           {currentIndex / 3 + 1} / {Math.ceil(totalSlides / 3)}
         </span>
         <button onClick={nextSlide} disabled={currentIndex === totalSlides - 3} className='NextBtn'>
-          <FaAngleRight/>
+          <FaAngleRight className='icon'/>
         </button>
       </div>
     </div>

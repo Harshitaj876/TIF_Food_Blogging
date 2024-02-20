@@ -10,13 +10,19 @@
 .slide-count {
     margin: 0 16px;
     font-size: 16px;
+    color: #424961;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
 }
 
 .slider-controls{
     display: flex;
     flex-direction: row;
     align-items: center;
-
 }
 
 button {
@@ -33,17 +39,20 @@ button {
 }
 
 .prevBtn{
-    width: 28px;
-    height: 29px;
+    width: 30px;
+    height: 30px;
     border-radius: 5px;
     border: 1px #424961;
-
 }
 
 .NextBtn{
-    width: 28px;
-    height: 29px;
+    width: 30px;
+    height: 30px;
     border-radius: 5px;
-    border: 1px #424961;
+    border: 1px  #424961;
     left: 0;
+}
+
+.icon{
+    color: #424961;
 }
